@@ -2,6 +2,19 @@
 
 ObsPy scripts for seismological data analysis and visualization.
 
+## 🤖 GitHub Copilot 使用指南
+
+想知道如何使用 GitHub Copilot 來改進和擴展這個專案？查看以下文件：
+
+- **[COPILOT_SUGGESTIONS.md](COPILOT_SUGGESTIONS.md)** - 詳細的功能建議和具體的 Copilot 提示詞範例
+- **[.github/copilot-instructions.md](.github/copilot-instructions.md)** - 專案架構說明和開發指南
+
+這些文件包含：
+- ✅ 立即可以開始的改進任務
+- ✅ 中長期功能擴展建議  
+- ✅ 具體的 Copilot Chat 提示詞範例
+- ✅ 最佳實踐和學習資源
+
 ## Scripts
 
 ### plot_earthquake_map.py
@@ -56,3 +69,27 @@ pip install -r requirements.txt
 - obspy
 - matplotlib
 - numpy
+
+## 📚 Documentation
+
+- **[scripts/README.md](scripts/README.md)** - Detailed script usage documentation
+- **[COPILOT_SUGGESTIONS.md](COPILOT_SUGGESTIONS.md)** - GitHub Copilot usage guide (建議和提示詞範例)
+- **[.github/copilot-instructions.md](.github/copilot-instructions.md)** - Project structure for AI assistants
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- Report bugs or request features via Issues
+- Submit Pull Requests for improvements
+- Share your seismology analysis scripts
+- Improve documentation
+
+When contributing, consider using GitHub Copilot to help with:
+- Writing tests for new features
+- Generating documentation
+- Code refactoring and optimization
+- See [COPILOT_SUGGESTIONS.md](COPILOT_SUGGESTIONS.md) for ideas
+
+## 📄 License
+
+This project is open source. Please check with the repository owner for license details.
