@@ -207,8 +207,6 @@ def plot_seismicity_map(earthquake_data, output_file='earthquake_map.png', days=
     days : int
         Number of days covered (for title)
     """
-    use_cartopy = False
-    
     # Use simple matplotlib plotting (cartopy requires internet for map data)
     print("Using simplified matplotlib plotting...")
     fig, ax = plt.subplots(figsize=(15, 10))
@@ -277,7 +275,8 @@ def plot_seismicity_map(earthquake_data, output_file='earthquake_map.png', days=
     # Also try to display (if interactive environment)
     try:
         plt.show()
-    except:
+    except Exception:
+        # Silently ignore display errors (e.g., no display available)
         pass
     
     plt.close()
